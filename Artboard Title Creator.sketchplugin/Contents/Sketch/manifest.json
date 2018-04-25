@@ -1,0 +1,59 @@
+{
+	"author" : "Jason Burns",
+	"commands" : [
+		{
+			"name" : "Create Titles for Artboards on Page",
+			"identifier" : "create",
+			"description" : "Create artboard titles for artboards on current page.",
+			"script" : "script.cocoascript",
+			"icon" : "icon-sr.png",
+			"handler" : "create"
+		},
+		{
+			"name" : "Include Selected Artboards",
+			"identifier" : "include",
+			"description" : "Include selected artboards when creating artboard titles.",
+			"script" : "script.cocoascript",
+			"icon" : "icon-sr.png",
+			"handler" : "include"
+		},
+		{
+			"name" : "Preclude Selected Artboards",
+			"identifier" : "preclude",
+			"description" : "Preclude selected artboards when creating artboard titles.",
+			"script" : "script.cocoascript",
+			"icon" : "icon-sr.png",
+			"handler" : "preclude"
+		},
+		{
+			"name": "Report Issue",
+			"identifier": "report",
+			"script" : "script.cocoascript",
+			"handler": "report"
+		},
+		{
+			"name": "Donate",
+			"identifier": "donate",
+			"script" : "script.cocoascript",
+			"handler": "donate"
+		}
+	],
+	"menu" : {
+		"title" : "Artboard Title Creator",
+		"isRoot" : false,
+		"items" : [
+			"create",
+			"include",
+			"preclude",
+			"-",
+			"report",
+			"donate"
+		]
+	},
+	"identifier" : "com.sonburn.sketchplugins.artboard-title-creator",
+	"version" : "0.1",
+	"description" : "Create artboard titles for artboards on current page.",
+	"authorEmail" : "jason.burns@synchronoss.com",
+	"name" : "Artboard Title Creator",
+	"appcast" : "https://raw.githubusercontent.com/sonburn/artboard-title-creator/master/appcast.xml"
+}
