@@ -35,6 +35,7 @@ To find your plugins directory...
 
 # Changelog
 
+* **0.3** - Bug fix for titles not appearing when first run (due to style creation issue).
 * **0.2** - Added plugin icon to manifest for Sketch 50.
 * **0.1** - Initial commit.
 
