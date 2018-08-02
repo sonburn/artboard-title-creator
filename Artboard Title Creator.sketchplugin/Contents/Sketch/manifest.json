@@ -56,5 +56,6 @@
 	"authorEmail" : "jason.burns@synchronoss.com",
 	"name" : "Artboard Title Creator",
 	"icon" : "icon.png",
-	"appcast" : "https://raw.githubusercontent.com/sonburn/artboard-title-creator/master/appcast.xml"
+	"appcast" : "https://raw.githubusercontent.com/sonburn/artboard-title-creator/master/appcast.xml",
+	"homepage" : "https://github.com/sonburn/artboard-title-creator"
 }
