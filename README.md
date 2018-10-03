@@ -35,6 +35,7 @@ To find your plugins directory...
 
 # Changelog
 
+* **0.5** - Fixes for Sketch 52; shared style is now being properly applied to new titles.
 * **0.4** - Fixes for Sketch 52; MSSharedStyle.initWithName_firstInstance and MSSharedStyle.newInstance were both phased out.
 * **0.3** - Bug fix for titles not appearing when first run (due to style creation issue).
 * **0.2** - Added plugin icon to manifest for Sketch 50.

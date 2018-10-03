@@ -6,15 +6,15 @@
 		<description>Create artboard titles for artboards on current page.</description>
 		<language>en</language>
 		<item>
-			<title>Version 0.4/title>
+			<title>Version 0.5/title>
 			<description>
 				<![CDATA[
 				<ul>
-				<li>Fixes for Sketch 52; MSSharedStyle.initWithName_firstInstance and MSSharedStyle.newInstance were both phased out.</li>
+				<li>Fixes for Sketch 52; shared style is now being properly applied to new titles.</li>
 				</ul>
 				]]>
 			</description>
-			<enclosure url="https://github.com/sonburn/artboard-title-creator/archive/master.zip" sparkle:version="0.4" />
+			<enclosure url="https://github.com/sonburn/artboard-title-creator/archive/master.zip" sparkle:version="0.5" />
 		</item>
 	</channel>
 </rss>
