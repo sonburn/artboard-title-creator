@@ -51,7 +51,7 @@
 		]
 	},
 	"identifier" : "com.sonburn.sketchplugins.artboard-title-creator",
-	"version" : "0.5",
+	"version" : "0.6",
 	"description" : "Create artboard titles for artboards on current page.",
 	"authorEmail" : "jason.burns@synchronoss.com",
 	"name" : "Artboard Title Creator",

@@ -66,28 +66,25 @@ var create = function(context,command) {
 				screenTitle.setStringValue(artboard.name());
 				screenTitle.setName(artboard.name());
 
-				// Add title layer to title group
-				titleGroup.addLayers([screenTitle]);
-
 				// Apply style to title layer
 				if (titleStyle.newInstance) {
 					screenTitle.setStyle(titleStyle.newInstance());
 				} else {
-					screenTitle.setSharedStyleID(titleStyle.objectID());
+					screenTitle.setSharedStyle(titleStyle);
 				}
 
-				// Reset style to match shared style
-				screenTitle.resetSharedStyle();
-
 				// Set title layer X position
-				screenTitle.absoluteRect().setX(artboard.frame().x());
+				screenTitle.frame().setX(artboard.frame().x());
 
 				// Set title layer Y position
 				if (titleSettings.titleLocation == 0) {
-					screenTitle.absoluteRect().setY(artboard.frame().y() - (titleStyleData.lineHeight + parseInt(titleSettings.titleOffset)));
+					screenTitle.frame().setY(artboard.frame().y() - (titleStyleData.lineHeight + parseInt(titleSettings.titleOffset)));
 				} else {
-					screenTitle.absoluteRect().setY(artboard.frame().y() + artboard.frame().height() + parseInt(titleSettings.titleOffset));
+					screenTitle.frame().setY(artboard.frame().y() + artboard.frame().height() + parseInt(titleSettings.titleOffset));
 				}
+
+				// Add title layer to title group
+				titleGroup.addLayers([screenTitle]);
 			}
 
 			// Resize title group

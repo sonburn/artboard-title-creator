@@ -6,7 +6,7 @@
 		<description>Create artboard titles for artboards on current page.</description>
 		<language>en</language>
 		<item>
-			<title>Version 0.5/title>
+			<title>Version 0.6</title>
 			<description>
 				<![CDATA[
 				<ul>
@@ -14,7 +14,7 @@
 				</ul>
 				]]>
 			</description>
-			<enclosure url="https://github.com/sonburn/artboard-title-creator/archive/master.zip" sparkle:version="0.5" />
+			<enclosure url="https://github.com/sonburn/artboard-title-creator/archive/master.zip" sparkle:version="0.6" />
 		</item>
 	</channel>
 </rss>
