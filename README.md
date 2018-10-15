@@ -1,8 +1,8 @@
-![Artboard Title Creator](https://raw.githubusercontent.com/sonburn/artboard-title-creator/master/logo.png)
+![Artboard Title Creator](https://raw.githubusercontent.com/sonburn/artboard-title-creator/master/images/logo.png)
 
 Create artboard titles for artboards on current page.
 
-![Artboard Title Creator](https://raw.githubusercontent.com/sonburn/artboard-title-creator/master/Screenshots/Artboard%20Title%20Creator.png)
+![Artboard Title Creator](https://raw.githubusercontent.com/sonburn/artboard-title-creator/master/images/screenshot.png)
 
 <a href="http://bit.ly/SketchRunnerWebsite">
 	<img width="160" height="41" src="http://bit.ly/RunnerBadgeBlue" alt="runner-badge-blue">
@@ -13,7 +13,7 @@ Create artboard titles for artboards on current page.
 </a>
 
 <a href="https://www.paypal.me/sonburn">
-	<img width="160" height="41" src="https://raw.githubusercontent.com/DWilliames/PDF-export-sketch-plugin/master/images/paypal-badge.png">
+	<img width="160" height="41" src="https://raw.githubusercontent.com/sonburn/symbol-organizer/master/images/donate.png">
 </a>
 
 # Installation
@@ -44,11 +44,11 @@ To find your plugins directory...
 
 # Contact
 
-<a class="twitter-follow-button" href="https://twitter.com/sonburn">Follow @sonburn</a>
+Find me on Twitter <a class="twitter-follow-button" href="https://twitter.com/sonburn">@sonburn</a>
 
 # Support
 
-If you find this plugin helpful, consider shouting me ☕️ via <a href="https://www.paypal.me/sonburn">PayPal</a>.
+If you find this plugin helpful, or would like to support my plugins in general, buy me ☕️ via <a href="https://www.paypal.me/sonburn">PayPal</a>.
 
 # License
 
