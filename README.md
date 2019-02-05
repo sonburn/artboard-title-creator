@@ -35,6 +35,7 @@ To find your plugins directory...
 
 # Changelog
 
+* **0.8** - Added link for Other Plugins.
 * **0.7** - Fix for Sketch 53.
 * **0.6** - Fixes for Sketch 52; shared style is now being properly applied to new titles.
 * **0.5** - Fixes for Sketch 52; shared style is now being properly applied to new titles.

@@ -176,6 +176,12 @@ var report = function(context) {
 	if (!debugMode) googleAnalytics(context,"report","report");
 }
 
+var plugins = function(context) {
+	openUrl("https://sonburn.github.io/");
+
+	if (!debugMode) googleAnalytics(context,"plugins","plugins");
+}
+
 var donate = function(context) {
 	openUrl("https://www.paypal.me/sonburn");
 

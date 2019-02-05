@@ -3,7 +3,7 @@
 	"description" : "Create artboard titles for artboards on current page.",
 	"author" : "Jason Burns",
 	"homepage" : "https://github.com/sonburn/artboard-title-creator",
-	"version" : "0.7",
+	"version" : "0.8",
 	"identifier" : "com.sonburn.sketchplugins.artboard-title-creator",
 	"appcast" : "https://raw.githubusercontent.com/sonburn/artboard-title-creator/master/appcast.xml",
 	"icon" : "icon.png",
@@ -36,6 +36,12 @@
 			"handler": "report"
 		},
 		{
+			"name": "Other Plugins",
+			"identifier": "plugins",
+			"script" : "script.js",
+			"handler": "plugins"
+		},
+		{
 			"name": "Donate",
 			"identifier": "donate",
 			"script" : "script.js",
@@ -50,6 +56,7 @@
 			"preclude",
 			"-",
 			"report",
+			"plugins",
 			"donate"
 		]
 	}
