@@ -1,5 +1,12 @@
 {
+	"name" : "Artboard Title Creator",
+	"description" : "Create artboard titles for artboards on current page.",
 	"author" : "Jason Burns",
+	"homepage" : "https://github.com/sonburn/artboard-title-creator",
+	"version" : "0.7",
+	"identifier" : "com.sonburn.sketchplugins.artboard-title-creator",
+	"appcast" : "https://raw.githubusercontent.com/sonburn/artboard-title-creator/master/appcast.xml",
+	"icon" : "icon.png",
 	"commands" : [
 		{
 			"name" : "Create Titles for Artboards on Page",
@@ -40,7 +47,6 @@
 	],
 	"menu" : {
 		"title" : "Artboard Title Creator",
-		"isRoot" : false,
 		"items" : [
 			"create",
 			"include",
@@ -49,13 +55,5 @@
 			"report",
 			"donate"
 		]
-	},
-	"identifier" : "com.sonburn.sketchplugins.artboard-title-creator",
-	"version" : "0.6",
-	"description" : "Create artboard titles for artboards on current page.",
-	"authorEmail" : "jason.burns@synchronoss.com",
-	"name" : "Artboard Title Creator",
-	"icon" : "icon.png",
-	"appcast" : "https://raw.githubusercontent.com/sonburn/artboard-title-creator/master/appcast.xml",
-	"homepage" : "https://github.com/sonburn/artboard-title-creator"
+	}
 }
