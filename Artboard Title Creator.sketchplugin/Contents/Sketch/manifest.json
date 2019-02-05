@@ -12,36 +12,33 @@
 			"name" : "Create Titles for Artboards on Page",
 			"identifier" : "create",
 			"description" : "Create artboard titles for artboards on current page.",
-			"script" : "script.cocoascript",
-			"icon" : "icon-sr.png",
+			"script" : "script.js",
 			"handler" : "create"
 		},
 		{
 			"name" : "Include Selected Artboards",
 			"identifier" : "include",
 			"description" : "Include selected artboards when creating artboard titles.",
-			"script" : "script.cocoascript",
-			"icon" : "icon-sr.png",
+			"script" : "script.js",
 			"handler" : "include"
 		},
 		{
 			"name" : "Preclude Selected Artboards",
 			"identifier" : "preclude",
 			"description" : "Preclude selected artboards when creating artboard titles.",
-			"script" : "script.cocoascript",
-			"icon" : "icon-sr.png",
+			"script" : "script.js",
 			"handler" : "preclude"
 		},
 		{
 			"name": "Report Issue",
 			"identifier": "report",
-			"script" : "script.cocoascript",
+			"script" : "script.js",
 			"handler": "report"
 		},
 		{
 			"name": "Donate",
 			"identifier": "donate",
-			"script" : "script.cocoascript",
+			"script" : "script.js",
 			"handler": "donate"
 		}
 	],

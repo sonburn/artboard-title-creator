@@ -1,3 +1,5 @@
+var sketch = require("sketch");
+
 // Plugin variables
 var pluginName = "Artboard Title Creator",
 	pluginDescription = "Create artboard titles for artboards on current page.",
@@ -88,7 +90,11 @@ var create = function(context,command) {
 			}
 
 			// Resize title group
-			titleGroup.resizeToFitChildrenWithOption(0);
+			if (sketch.version.sketch > 52) {
+				titleGroup.fixGeometryWithOptions(0);
+			} else {
+				titleGroup.resizeToFitChildrenWithOption(0);
+			}
 
 			// If creating titles directly...
 			if (!command) {

@@ -35,6 +35,7 @@ To find your plugins directory...
 
 # Changelog
 
+* **0.7** - Fix for Sketch 53.
 * **0.6** - Fixes for Sketch 52; shared style is now being properly applied to new titles.
 * **0.5** - Fixes for Sketch 52; shared style is now being properly applied to new titles.
 * **0.4** - Fixes for Sketch 52; MSSharedStyle.initWithName_firstInstance and MSSharedStyle.newInstance were both phased out.
@@ -52,4 +53,4 @@ If you find this plugin helpful, or would like to support my plugins in general,
 
 # License
 
-Copyright (c) 2018 Jason Burns (Sonburn). See LICENSE.md for further details.
+Copyright (c) 2019 Jason Burns (Sonburn). See LICENSE.md for further details.
