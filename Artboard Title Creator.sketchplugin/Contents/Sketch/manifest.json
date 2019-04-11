@@ -11,6 +11,7 @@
 		{
 			"name" : "Create Titles for Artboards on Page",
 			"identifier" : "create",
+			"icon": "icon.png",
 			"description" : "Create artboard titles for artboards on current page.",
 			"script" : "script.js",
 			"handler" : "create"
@@ -18,6 +19,7 @@
 		{
 			"name" : "Include Selected Artboards",
 			"identifier" : "include",
+			"icon": "icon.png",
 			"description" : "Include selected artboards when creating artboard titles.",
 			"script" : "script.js",
 			"handler" : "include"
@@ -25,6 +27,7 @@
 		{
 			"name" : "Preclude Selected Artboards",
 			"identifier" : "preclude",
+			"icon": "icon.png",
 			"description" : "Preclude selected artboards when creating artboard titles.",
 			"script" : "script.js",
 			"handler" : "preclude"
@@ -32,18 +35,21 @@
 		{
 			"name": "Report Issue",
 			"identifier": "report",
+			"icon": "icon.png",
 			"script" : "script.js",
 			"handler": "report"
 		},
 		{
 			"name": "Other Plugins",
 			"identifier": "plugins",
+			"icon": "icon.png",
 			"script" : "script.js",
 			"handler": "plugins"
 		},
 		{
 			"name": "Donate",
 			"identifier": "donate",
+			"icon": "icon.png",
 			"script" : "script.js",
 			"handler": "donate"
 		}
