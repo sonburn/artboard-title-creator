@@ -6,15 +6,15 @@
 		<description>Create artboard titles for artboards on current page.</description>
 		<language>en</language>
 		<item>
-			<title>Version 0.8</title>
+			<title>Version 0.9</title>
 			<description>
 				<![CDATA[
 				<ul>
-				<li>Add link for Other Plugins.</li>
+				<li>Fix for Sketch 72.</li>
 				</ul>
 				]]>
 			</description>
-			<enclosure url="https://github.com/sonburn/artboard-title-creator/archive/master.zip" sparkle:version="0.8" />
+			<enclosure url="https://github.com/sonburn/artboard-title-creator/archive/master.zip" sparkle:version="0.9" />
 		</item>
 	</channel>
 </rss>

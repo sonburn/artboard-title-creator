@@ -8,10 +8,6 @@ Create artboard titles for artboards on current page.
 	<img width="160" height="41" src="http://bit.ly/RunnerBadgeBlue" alt="runner-badge-blue">
 </a>
 
-<a href="https://sketchpacks.com/sonburn/artboard-title-creator/install">
-	<img width="160" height="41" src="http://sketchpacks-com.s3.amazonaws.com/assets/badges/sketchpacks-badge-install.png" >
-</a>
-
 <a href="https://www.paypal.me/sonburn">
 	<img width="160" height="41" src="https://raw.githubusercontent.com/sonburn/symbol-organizer/master/images/donate.png">
 </a>
@@ -19,7 +15,7 @@ Create artboard titles for artboards on current page.
 # Installation
 
 ## Automatic
-Search for Artboard Title Creator in [Sketchrunner](http://sketchrunner.com/), [Sketchpacks](https://sketchpacks.com/), or [Sketch Toolbox](http://sketchtoolbox.com/) if you have one of those installed.
+Search for Artboard Title Creator in [Sketchrunner](http://sketchrunner.com/) or [Sketch Toolbox](http://sketchtoolbox.com/) if you have one of those installed.
 
 Once installed, Sketch will automatically notify you when an update is available (version 0.1 and later).
 
@@ -35,6 +31,7 @@ To find your plugins directory...
 
 # Changelog
 
+* **0.9** - Fix for Sketch 72.
 * **0.8** - Added link for Other Plugins.
 * **0.7** - Fix for Sketch 53.
 * **0.6** - Fixes for Sketch 52; shared style is now being properly applied to new titles.
@@ -54,4 +51,4 @@ If you find this plugin helpful, or would like to support my plugins in general,
 
 # License
 
-Copyright (c) 2019 Jason Burns (Sonburn). See LICENSE.md for further details.
+Copyright (c) 2021 Jason Burns (Sonburn). See LICENSE.md for further details.
